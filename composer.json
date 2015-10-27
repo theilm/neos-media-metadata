@@ -1,0 +1,14 @@
+{
+    "name": "neos/media-metadata",
+    "type": "typo3-flow-package",
+    "description": "Node based meta data storage for media assets",
+    "license": "GPL-3.0+",
+    "require": {
+        "typo3/neos": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Neos\\Media\\MetaData": "Classes"
+        }
+    }
+}
